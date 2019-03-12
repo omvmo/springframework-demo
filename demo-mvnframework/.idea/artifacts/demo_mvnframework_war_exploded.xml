@@ -1,0 +1,16 @@
+<component name="ArtifactManager">
+  <artifact type="war" build-on-make="true" name="demo-mvnframework:war exploded">
+    <output-path>$PROJECT_DIR$/target/classes</output-path>
+    <root id="archive" name="demo-mvnframework_war exploded.war">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="demo-mvnframework" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: javax.servlet:servlet-api:2.4" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="demo-mvnframework/web/Web" />
+    </root>
+  </artifact>
+</component>
